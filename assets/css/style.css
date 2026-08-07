@@ -34,6 +34,10 @@ header {
     text-align: center;
 }
 
+header h1 {
+    color: #FFFFFF;
+}
+
 nav {
     background-color: #F99E1A;
     padding: 10px;
