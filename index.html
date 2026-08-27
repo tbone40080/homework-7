@@ -1,66 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Why I Play Overwatch</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why I Play Overwatch</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-    <body>
-        
-        <header>
-            <h1>Why I Play Overwatch</h1>
-            <p>I want to describe one of my favorite games that I care about.</p>
-        </header>
+<body>
 
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#heroes">Favorite Heroes</a></li>
-            </ul>
-        </nav>
-        
-        <main>
-            <section id="about">
-                <h2> About Me and the Game</h2>
-                <p> When talking about my favorite game I like to point out the fact that I don't just stick to one specific role on Overwatch that's what most people call a flex queue meaning I'll play any role like Tank, DPS (Damage), or Support. I got into the game because it gave me a break from stress at home and from schoolwork like I am doing right now, and for a while it was and still is the one thing that reliably made me happy during the day. These days I keep playing to stay connected with friends and laugh through the chaos we get into together.
-                </p>
-            </section>
+    <header>
+        <h1>Why I Play Overwatch</h1>
+        <p>I want to describe one of my favorite games that I care about.</p>
+    </header>
 
-            <section id="heroes">
-                <h2>My Favorite Heroes</h2>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#heroes">Favorite Heroes</a></li>
+            <li><a href="#extras">Interactive Extras</a></li>
+        </ul>
+    </nav>
 
-                <div class="heroes-container">
+    <main>
+        <section id="about">
+            <h2> About Me and the Game</h2>
+            <p> When talking about my favorite game I like to point out the fact that I don't just stick to one specific
+                role on Overwatch that's what most people call a flex queue meaning I'll play any role like Tank, DPS
+                (Damage), or Support. I got into the game because it gave me a break from stress at home and from
+                schoolwork like I am doing right now, and for a while it was and still is the one thing that reliably
+                made me happy during the day. These days I keep playing to stay connected with friends and laugh through
+                the chaos we get into together.
+            </p>
+        </section>
 
-                    <div class="hero">
-                <h3>Zenyatta</h3>
-                <img src="assets/images/Zenyatta.jpg" alt="Zenyatta, a floating robotic monk support hero that uses orbs to heal allies and damage enemies.">
-                <p>
-                    Zenyatta lets me play Support without playing it safe. It's like playing DPS but as a Support because Zenyatta has two orbs one called the Harmony orb and another called a Discord orb. So that gives me the ability to both heal my team and play aggressively against enemies.
-                </p>
+        <section id="heroes">
+            <h2>My Favorite Heroes</h2>
+
+            <div class="heroes-container">
+
+                <div class="hero">
+                    <h3>Zenyatta</h3>
+                    <img src="assets/images/Zenyatta.jpg"
+                        alt="Zenyatta, a floating robotic monk support hero that uses orbs to heal allies and damage enemies.">
+                    <p>
+                        Zenyatta lets me play Support without playing it safe. It's like playing DPS but as a Support
+                        because Zenyatta has two orbs one called the Harmony orb and another called a Discord orb. So
+                        that gives me the ability to both heal my team and play aggressively against enemies.
+                    </p>
                 </div>
 
                 <div class="hero">
-                <h3>Reinhardt</h3>
-                <img src="assets/images/Reinhardt.jpg" alt="Reinhardt, an armored Tank hero holding a rocket hammer and shield.">
-            <p> 
-                Reinhardt is who I pick when I want to be the one making space for my team. I could push into the backlines of the enemies and distract them while my team gets to whichever objective there is. I also like to play Reinhardt because of his playstyle since I like being up close and personal and I can do that with the way he charges in and swings his big hammer around.
-                </p>
+                    <h3>Reinhardt</h3>
+                    <img src="assets/images/Reinhardt.jpg"
+                        alt="Reinhardt, an armored Tank hero holding a rocket hammer and shield.">
+                    <p>
+                        Reinhardt is who I pick when I want to be the one making space for my team. I could push into
+                        the backlines of the enemies and distract them while my team gets to whichever objective there
+                        is. I also like to play Reinhardt because of his playstyle since I like being up close and
+                        personal and I can do that with the way he charges in and swings his big hammer around.
+                    </p>
                 </div>
 
             </div>
-                </section>
+        </section>
 
-                </main>
+        <section id="extras">
+            <h2>Interactive Extras</h2>
 
-                <footer>
-                    <p> Made by me who plays way too much Overwatch</p>
-                    <img src="assets/images/Overwatch Playtime.png" alt="Screenshot showing my total hours played in Overwatch totalling 432 hours">
-                </footer>
+            <div class="extra-box">
+                <h3>Random Overwatch Tip</h3>
+                <p id="tip-text">Click the button to get a tip!</p>
+                <button id="tip-button">Show a Tip</button>
+            </div>
 
+            <div class="extra-box">
+                <h3>Color Preview</h3>
+                <p>Type a color name (like orange, blue, or teal):</p>
+                <input type="text" id="color-input" placeholder="Type a color name">
+                <div id="color-preview"></div>
+            </div>
 
-                </body>
+            <div class="extra-box">
+                <h3>My Overwatch Moments</h3>
+                <input type="text" id="moment-input" placeholder="Type a favorite moment">
+                <button id="add-moment-button">Add</button>
+                <ul id="moment-list"></ul>
+            </div>
+        </section>
 
-                </html>
+    </main>
+
+    <footer>
+        <p> Made by me who plays way too much Overwatch</p>
+        <img src="assets/images/Overwatch Playtime.png"
+            alt="Screenshot showing my total hours played in Overwatch totalling 432 hours">
+    </footer>
+
+    <script src="assets/scripts/interactive-extras.js"></script>
+
+</body>
+
+</html>
