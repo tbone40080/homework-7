@@ -5,8 +5,10 @@ body {
     margin: 0;
 }
 
-h1, h2, h3 {
-    color: #F99E1A;   
+h1,
+h2,
+h3 {
+    color: #F99E1A;
 }
 
 p {
@@ -74,7 +76,7 @@ nav li {
     padding: 15px;
 }
 
-footer { 
+footer {
     background-color: #0072CE;
     color: #FFFFFF;
     text-align: center;
@@ -102,4 +104,93 @@ footer {
     .heroes-container {
         gap: 40px;
     }
+}
+
+#extras {
+    padding: 20px;
+}
+
+.extra-box {
+    background-color: #24374F;
+    border: 2px solid #F99E1A;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.extra-box input {
+    padding: 6px;
+    margin-right: 8px;
+}
+
+.extra-box button {
+    background-color: #F99E1A;
+    color: #1B2838;
+    border: none;
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+#color-preview {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    border: 2px solid #F99E1A;
+}
+
+#moment-list li {
+    margin-bottom: 5px;
+}
+
+#moment-list button {
+    background-color: #0072CE;
+    color: #FFFFFF;
+    border: none;
+    padding: 2px 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/* interactive extras (homework 7) */
+#extras {
+    padding: 20px;
+}
+
+.extra-box {
+    background-color: #24374F;
+    border: 2px solid #F99E1A;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.extra-box input {
+    padding: 6px;
+    margin-right: 8px;
+}
+
+.extra-box button {
+    background-color: #F99E1A;
+    color: #1B2838;
+    border: none;
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+#color-preview {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    border: 2px solid #F99E1A;
+}
+
+#moment-list li {
+    margin-bottom: 5px;
+}
+
+#moment-list button {
+    background-color: #0072CE;
+    color: #FFFFFF;
+    border: none;
+    padding: 2px 8px;
+    margin-left: 8px;
+    cursor: pointer;
 }
