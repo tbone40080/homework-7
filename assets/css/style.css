@@ -106,6 +106,7 @@ footer {
     }
 }
 
+/*interactive extras (homework 7) */
 #extras {
     padding: 20px;
 }
@@ -150,47 +151,46 @@ footer {
     cursor: pointer;
 }
 
-/* interactive extras (homework 7) */
-#extras {
+/* contact form (homework 8) */
+#contact {
     padding: 20px;
 }
 
-.extra-box {
-    background-color: #24374F;
-    border: 2px solid #F99E1A;
-    padding: 15px;
-    margin-bottom: 15px;
+.form-group {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
-.extra-box input {
+.form-group label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
     padding: 6px;
-    margin-right: 8px;
+    border: 1px solid #0072CE;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
 }
 
-.extra-box button {
+.error-message {
+    color: #FF6B6B;
+    font-size: 0.9rem;
+    margin-top: 4px;
+    display: block;
+}
+
+#signup-form button[type="submit"] {
     background-color: #F99E1A;
     color: #1B2838;
     border: none;
-    padding: 6px 14px;
+    padding: 8px 20px;
     cursor: pointer;
 }
 
-#color-preview {
-    width: 100px;
-    height: 50px;
+#signup-status {
     margin-top: 10px;
-    border: 2px solid #F99E1A;
-}
-
-#moment-list li {
-    margin-bottom: 5px;
-}
-
-#moment-list button {
-    background-color: #0072CE;
-    color: #FFFFFF;
-    border: none;
-    padding: 2px 8px;
-    margin-left: 8px;
-    cursor: pointer;
+    font-weight: bold;
 }
