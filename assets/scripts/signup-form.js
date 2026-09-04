@@ -28,7 +28,7 @@ signupForm.addEventListener('submit', function (e) {
         playerEmailError.textContent = 'Please enter your email.';
         isValid = false;
     } else if (!playerEmail.value.includes('@')) {
-        playerEmailError.textContent = 'Please enter a valid email adress.';
+        playerEmailError.textContent = 'Please enter a valid email address.';
         isValid = false;
     } else {
         playerEmailError.textContent = '';
