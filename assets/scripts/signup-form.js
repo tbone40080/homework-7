@@ -15,6 +15,9 @@ const playerMessageError = document.getElementById('player-message-error');
 
 signupForm.addEventListener('submit', function (e) {
     e.preventDefault();
+
+    console.log('Form submitted!');
+
     let isValid = true;
 
     if (playerName.value.trim() === '') {
@@ -54,6 +57,8 @@ signupForm.addEventListener('submit', function (e) {
     } else {
         signupStatus.textContent = 'Please fix the errors above and try again.';
     }
+
+    console.log('Form Valid:', isValid);
 });
 
 // clear each field's error message when the user corrects it
